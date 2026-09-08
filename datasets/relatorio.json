@@ -1,0 +1,109 @@
+{
+  "PUBHEALTH": {
+    "train": {
+      "bruto": 9832,
+      "limpo": 9804,
+      "labels": {
+        "true": 5078,
+        "false": 3001,
+        "mixture": 1434,
+        "unproven": 291
+      }
+    },
+    "dev": {
+      "bruto": 1233,
+      "limpo": 1222,
+      "labels": {
+        "true": 635,
+        "false": 381,
+        "mixture": 165,
+        "unproven": 41
+      }
+    },
+    "test": {
+      "bruto": 1238,
+      "limpo": 1228,
+      "labels": {
+        "true": 599,
+        "false": 385,
+        "mixture": 200,
+        "unproven": 44
+      }
+    }
+  },
+  "FakeHealth": {
+    "reviews": 2296,
+    "linhas_criterio": 22959,
+    "perguntas_unicas": 20,
+    "respostas": {
+      "Satisfactory": 11730,
+      "Not Satisfactory": 9934,
+      "Not Applicable": 1294,
+      "": 1
+    }
+  },
+  "FactCenter": {
+    "total": 11647,
+    "subset_saude": 4063,
+    "agencias": {
+      "boatos": 5523,
+      "lupa": 2574,
+      "aos fatos": 1679,
+      "fato-ou-fake": 917,
+      "ESTADAO_VERIFICA": 593,
+      "COMPROVA": 361
+    }
+  },
+  "FACTCK.BR": {
+    "linhas": 1313,
+    "agencias": 3,
+    "rotulos_top": {
+      "falso": 943,
+      "verdadeiro": 120,
+      "exagerado": 91,
+      "distorcido": 54,
+      "sem contexto": 42,
+      "impossível provar": 20,
+      "discutível": 12,
+      "subestimado": 6,
+      "ainda é cedo para dizer": 6,
+      "insustentável": 5
+    }
+  },
+  "Scientific Exaggeration": {
+    "train": {
+      "pares": 100,
+      "labels": {
+        "same": 61,
+        "exaggerates": 22,
+        "downplays": 17
+      }
+    },
+    "test": {
+      "pares": 563,
+      "labels": {
+        "same": 345,
+        "exaggerates": 122,
+        "downplays": 96
+      }
+    }
+  },
+  "FakeRecogna": {
+    "linhas": 11903,
+    "classes": {
+      "0": 5951,
+      "1": 5951
+    },
+    "categorias_top": {
+      "saúde": 4456,
+      "política": 3951,
+      "entretenimento": 1409,
+      "brasil": 904,
+      "ciência": 602,
+      "mundo": 580
+    }
+  },
+  "Med-MMHL": {
+    "status": "nao baixado - 4,0 GB no Dropbox (script incluso)"
+  }
+}

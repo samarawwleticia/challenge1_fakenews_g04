@@ -1,6 +1,25 @@
+# Python / MkDocs
 .venv/
 site/
 __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
+
+# Claude Code (configuração local, não versionar)
+.claude/settings.local.json
+
+# Lixo de sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Datasets brutos de terceiros (181 MB) - nao versionados.
+# Fontes, DOIs e checksums para reconstituir: datasets/FONTES.md
+datasets/01_nucleo_metodologico/factcenter/
+datasets/01_nucleo_metodologico/pubhealth/
+datasets/01_nucleo_metodologico/fakehealth/content/
+datasets/01_nucleo_metodologico/fakehealth/reviews/
+datasets/01_nucleo_metodologico/fakehealth/engagements/
+datasets/03_banco_estimulos/fakerecogna/
+datasets-desinformacao.tar.gz

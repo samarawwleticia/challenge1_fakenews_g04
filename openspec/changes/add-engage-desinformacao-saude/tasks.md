@@ -1,0 +1,56 @@
+# Tasks — add-engage-desinformacao-saude
+
+Vigência: 08/09 a 11/09.
+
+## 1. Preparação
+
+- [ ] 1.1 Selecionar 4 a 6 casos brasileiros de desinformação em saúde,
+      cobrindo pelo menos 3 tipos distintos de manipulação
+- [ ] 1.2 Criar o template da ficha de caso conforme
+      `specs/pesquisa-investigativa/spec.md`
+- [ ] 1.3 Preparar o board do Miro com os quadros Problema, Público, Sucesso e
+      Solução, mais um frame adicional "Sinais & Viabilidade"
+
+## 2. Investigação forense
+
+- [ ] 2.1 Distribuir os casos entre os integrantes, um caso por pessoa no mínimo
+- [ ] 2.2 Analisar cada caso aplicando leitura lateral, registrando o tempo gasto
+- [ ] 2.3 Preencher uma ficha por caso, com fontes rastreáveis
+- [ ] 2.4 Consolidar os tempos medidos como evidência para o quadro Problema
+
+## 3. Sessão de brainstorming (~90 min)
+
+- [ ] 3.1 Rodar os quadros Problema, Público e Sucesso em modo privado antes de
+      abrir a discussão
+- [ ] 3.2 Preencher o quadro Solução apenas como hipóteses, sem decidir
+- [ ] 3.3 Plotar guiding questions (não soluções) na matriz impacto × incerteza
+
+## 4. Matriz de confiança
+
+- [ ] 4.1 Card sorting dos sinais que cada integrante usa na prática
+- [ ] 4.2 Consolidar em dimensões, cada uma com sinal observável, papel da IA e
+      limite
+- [ ] 4.3 Escrever a rubrica de três níveis por dimensão
+- [ ] 4.4 Testar a matriz contra os casos da forense e remover dimensões que não
+      discriminam nenhum caso
+
+## 5. Guiding questions
+
+- [ ] 5.1 Derivar uma GQ por agrupamento de notas dos quadros
+- [ ] 5.2 Aplicar o critério de qualidade e descartar as que não passam
+- [ ] 5.3 Priorizar e marcar as 3 que abrem a fase Investigate
+
+## 6. Exploração de datasets
+
+- [ ] 6.1 Verificar disponibilidade e licença de cada dataset candidato, com o
+      link aberto e conferido
+- [ ] 6.2 Classificar cada dataset por função: raciocínio, comparação
+      fonte-manchete, ou banco de estímulos
+- [ ] 6.3 Registrar caveats por dataset, incluindo os descartados com motivo
+
+## 7. Fechamento
+
+- [ ] 7.1 Consolidar o portfólio de pesquisa (fichas + método + datasets)
+- [ ] 7.2 Consolidar a matriz de confiança versão 1
+- [ ] 7.3 Rodar `openspec validate add-engage-desinformacao-saude --strict`
+- [ ] 7.4 Abrir `add-instrumento-avaliacao-ptbr` para a fase Investigate

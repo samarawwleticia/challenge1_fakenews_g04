@@ -1,0 +1,8 @@
+# Dados: preserva os bytes exatos, sem conversao de fim de linha.
+# Sem isto, o autocrlf do Windows quebraria a conferencia de datasets/SHA256SUMS.
+datasets/** -text
+
+# Documentacao e specs: LF em todo lugar, independente de SO.
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
