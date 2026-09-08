@@ -1,0 +1,83 @@
+site_name: Challenge Fake News
+
+repo_name: "Challenge 01"
+repo_url: "https://github.com/samarawwleticia/challenge1_fakenews_g04"
+
+theme:
+  name: material
+
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  language: pt
+
+  font:
+    text: "Roboto"
+    code: "sans-serif"
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+      primary: black
+
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+      primary: black
+
+
+
+nav:
+  - Início: index.md
+  - Visão Geral: visao-geral.md
+  - Pré-Rastreabilidade:
+    - Rich Picture: pre-rastreabilidade/Rich Picture.md
+    - Argumentação: pre-rastreabilidade/argumentacao.md
+  - Elicitações:
+    - Brainstorming: Elicitacoes/Brainstorming.md
+    - MoSCoW: Elicitacoes/Moscow.md
+    - Introspecção: Elicitacoes/Introspeccao.md
+    - SWOT: Elicitacoes/SWOT.md
+    - Requisitos não funcionais: Elicitacoes/requisitos-nao-funcionais.md
+    - Resultados das elicitações: Elicitacoes/resultados.md
+  - Modelagem:
+    - Léxico: modelagem/lexico.md
+    - Personas: modelagem/personas.md
+    - Cenários: modelagem/cenarios.md
+    - Epics: modelagem/Epics.md
+    - Casos de uso: modelagem/casos-de-uso.md
+    - Especificações Suplementares: modelagem/especificacaoSuplementar.md
+    - Backlog do Produto: modelagem/backlog.md
+    - NFR: modelagem/NFR.md
+    - GORE i*: modelagem/iStar.md
+  - Análise:
+    - Inspeção Argumentação: Analise/argumentacao.md
+    - Inspeção Backlog do Produto: Analise/backlog.md
+    - Inspeção Casos de Uso: Analise/CasosDeUso.md
+    - Inspeção Cenários: Analise/cenarios.md
+    - Inspeção Epics: Analise/epics.md
+    - Inspeção Especificações Suplementares: Analise/EspecificacaoSuplementar.md
+    - Inspeção Léxico: Analise/lexicos.md
+    - Inspeção NFR: Analise/NFR.md
+    - Inspeção Personas: Analise/personas.md
+    - Inspeção Rich Picture: Analise/richpicture.md
+    - Validação: Analise/validacao.md
+    - Validação Protótipo: Analise/validacaoPrototipo.md
+  - Pós-Rastreabilidade:
+    - Forward-From: pos-rastreabilidade/forward-from.md
+    - Backward-From: pos-rastreabilidade/backward-from.md
+  - Reuniões:
+    - Ata do dia : reunioes/ata-14-08-24.md
+  - Entregas:
+    - Primeira entrega: entregas/primeira-entrega.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
