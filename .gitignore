@@ -1,6 +1,15 @@
+# Python / MkDocs
 .venv/
 site/
 __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
+
+# Claude Code (configuração local, não versionar)
+.claude/settings.local.json
+
+# Lixo de sistema
+Thumbs.db
+desktop.ini
+.DS_Store
